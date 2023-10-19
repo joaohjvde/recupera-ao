@@ -15,11 +15,11 @@
     font-weight: 400;
   }
   
-  strong #l {
+  .l {
     color: red;
   }
 
-  strong #h {
+.h {
     color: green;
   }
 
