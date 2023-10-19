@@ -22,11 +22,7 @@
   strong #h {
     color: green;
   }
-  .principal {
 
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
   
   .container {
     height: 100vh;
