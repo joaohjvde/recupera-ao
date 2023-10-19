@@ -97,6 +97,7 @@
 
 li{
   color: red;
+  list-style: disc;
 }
 
   .descricao__texto {
