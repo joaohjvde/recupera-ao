@@ -1,0 +1,129 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+  }
+  
+  body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  strong #l {
+    color: red;
+  }
+
+  strong #h {
+    color: green;
+  }
+  .principal {
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: red; */
+  }
+  
+  
+  .container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+  text-decoration: none;
+  display: block;
+  }
+  
+  .botao_secundario {
+    background-color: transparent;
+    border: 2px solid white;
+    border: 2px solid var(--branco-principal);
+  }
+  .container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+  }
+  
+  .container__caixa {
+    margin: 0 6em;
+  }
+  
+  .container__imagem {
+    margin: 1em 0 1em 0;
+    
+  }
+  
+  .principal {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container__botao {
+    margin-bottom: 1em;
+  }
+  .secundario {
+    align-items: center;
+    margin: 0 10em;
+  }
+  
+  .secundario__imagem {
+    width: 80%;
+  }
+  
+  .descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color:rgb(72, 255, 0);
+  margin-bottom: 0.1em;
+  }
+  
+  .descricao__texto {
+  color:
+  darkgray;
+    line-height: 150%;
+  }
+  
+  
+  
+  .secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .container__titulo2{
+    font-weight: 700;
+    font-size: 48px;
+    color:rgb(255, 0, 0);
+  margin-bottom: 0.1em;
+  }
+  
+  .descricao__texto {
+    color:
+    rgb(255, 255, 255);
+      line-height: 150%;}
+  
+          .dispositivos_lista {
+            display: flex;
+            justify-content: center;
+          }
+  
+  
+          .testo_de_alguma_coisa{
+            text-align: center;
+          }
